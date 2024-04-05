@@ -51,7 +51,7 @@ export default function App() {
           return (<Box>
             <Polygon
               pathOptions={{
-                fillColor: "#2B2D42",
+                fillColor: "#D6DAC8",
                 fillOpacity: 0.5,
                 weight: 1,
                 opacity: 9,
@@ -63,7 +63,7 @@ export default function App() {
                 mouseover: (e) => {
                   const layer = e.target;
                   layer.setStyle({
-                    fillColor: "#67C6E3",
+                    fillColor: "#FFEBB2",
                     fillOpacity: 0.5,
                     weight: 4,
                     opacity: 9,
@@ -74,7 +74,7 @@ export default function App() {
                 mouseout: (e) => {
                   const layer = e.target;
                   layer.setStyle({
-                    fillColor: "#2B2D42",
+                    fillColor: "#D6DAC8",
                     fillOpacity: 0.5,
                     weight: 1,
                     opacity: 9,
