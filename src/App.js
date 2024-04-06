@@ -20,7 +20,7 @@ export default function App() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("http://localhost:3001/user/data");
+        const response = await fetch("https://web-api-development-project-du0k.onrender.com/user/data");
         const data = await response.json();
         console.log("data", data)
         setApiData(data);
